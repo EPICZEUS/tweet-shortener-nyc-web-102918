@@ -14,3 +14,13 @@ def dictionary
   }
 end
 
+def word_substituter(tweet)
+  tweet.split(" ").map do |str|
+    dictionary[str] || str
+  end.join(" ")
+end
+
+def bulk_tweet_shortener(arr)
+  puts arr.map do |tweet|
+    word_substituter(tweet)
+  end
