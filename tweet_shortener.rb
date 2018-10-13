@@ -33,5 +33,5 @@ def selective_tweet_shortener(arr)
 end
 
 def shortened_tweet_truncator(arr)
-
+  
 end
