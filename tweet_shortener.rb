@@ -1,4 +1,6 @@
 # Write your code here.
+require 'pry'
+
 def dictionary
   {
     "hello" => "hi",
@@ -31,3 +33,9 @@ def selective_tweet_shortener(arr)
     puts tweet.length <= 140 ? tweet : word_substituter(tweet)
   end
 end
+
+def shortened_tweet_truncator(arr)
+  binding.pry
+end
+
+shortened_tweet_truncator
