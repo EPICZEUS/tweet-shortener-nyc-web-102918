@@ -1,6 +1,4 @@
 # Write your code here.
-require 'pry'
-
 def dictionary
   {
     "hello" => "hi",
@@ -35,7 +33,5 @@ def selective_tweet_shortener(arr)
 end
 
 def shortened_tweet_truncator(arr)
-  binding.pry
-end
 
-shortened_tweet_truncator
+end
